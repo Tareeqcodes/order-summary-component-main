@@ -1,0 +1,142 @@
+   @import url((https://fonts.google.com/specimen/Red+Hat+Display));
+  
+   @media screen and (max-width: 375px) {
+    .wrapper {
+        width: 50%;
+    }
+
+    .wrapper img {
+        width: 100%;
+        border-radius: 20px;
+    }
+    
+}
+
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+   body{
+       background-image: url(images/pattern-background-desktop.svg); 
+       background-repeat: no-repeat;
+       background-color: hsl(226, 30%, 78%);
+       font-family: 'Red Hat Display', sans-serif;
+    }
+     
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 70%; 
+        margin: 50px auto;
+        width: 350px;
+        background-color: #fff;
+        padding-top: 0;
+        padding-bottom: 30px; 
+        border-radius: 10px;
+    }
+
+    .wrapper img{
+        width: 350px;
+        height: 150px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+     h1{
+        color:  hsl(223, 47%, 23%);
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    h2{
+        font-size: 18px;
+        color: hsl(223, 47%, 23%);
+    }
+
+    #phara{
+        width: 100%;
+        color: hsl(224, 23%, 55%);
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    #phara-2{
+        width: 100%;
+        color: hsl(224, 23%, 55%);
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    #phara-2:hover{
+        color: hsl(223, 47%, 23%);
+        cursor: pointer;
+    }
+
+    .music{
+      align-items: center;
+      justify-content: space-around;
+      width: 300px;
+      height: 20%;
+      background-color: hsl(225, 100%, 98%);
+      border-radius: 10px;
+      margin: 10px auto;
+    }
+
+    #music{
+        margin-top: 10px;
+        margin-right: 50px;
+        margin-left: 0;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    i{
+        padding: 10px;
+        margin-right: 0;
+        border-radius: 50%;
+        background-color: hsl(225, 100%, 94%);
+    }
+
+    #change{
+        color: hsl(245, 75%, 52%);
+        text-decoration: underline;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    #change:hover{
+        color: hsl(224, 23%, 55%);
+        cursor: pointer;
+    }
+
+    #btn{
+        border-radius: 10px;
+        width: 300px;
+        height: fit-content;
+        padding: 10px;
+        margin: 20px auto;
+        font-size: 14px;
+        color: white;
+        font-weight: bold;
+        background-color: hsl(245, 75%, 52%);
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    }
+
+    #btn:hover{
+        background-color:  hsl(224, 23%, 55%);
+        cursor: pointer;
+    }
+
+    .attribution {
+     font-size: 11px; 
+     text-align: center;
+     }
+
+    .attribution a {
+     color: hsl(228, 45%, 44%); 
+    }
